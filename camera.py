@@ -8,7 +8,7 @@ class VideoCamera(object):
         #self.video = cv2.VideoCapture(0)
         # If you decide to use video.mp4, you must have this file in the folder
         # as the main.py.
-        self.video = cv2.VideoCapture('Footage.avi')
+        self.video = cv2.VideoCapture('Footage1.avi')
     
     def __del__(self):
         self.video.release()
