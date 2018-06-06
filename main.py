@@ -19,4 +19,4 @@ def video_feed():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    app.run(host='https://falcongoldvs.herokuapp.com/', port=8080)
+    app.run(host='81.103.232.66', port=8080)
