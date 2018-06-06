@@ -1,1 +1,1 @@
-worker: python main.py runserver --host 0.0.0.0 --port ${PORT}
+worker: python main.py runserver --host 81.103.232.6 --port ${8080}
